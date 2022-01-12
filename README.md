@@ -1,11 +1,9 @@
-# APEX-Autocomplete-on-Character
+# APEX-Restrict-Datepicker
 ![](https://img.shields.io/badge/ORACLE-APEX-success.svg) ![](https://img.shields.io/badge/Plug--in_Type-Dynamic_Action-orange.svg) ![](https://img.shields.io/badge/Avaiable%20for%20APEX-5.1.3%20or%20above-blue)
 
 ![image](https://user-images.githubusercontent.com/5824892/142200802-00a7e0fb-88b4-4d22-8eab-e1873e135a93.png)
 
-This plugin uses jQuery Autocomplete plugin to create a list of values when pressing @ for Text Field or Textarea.
-The plugin uses jQuery 3.6.0 with noConflict.
-Please note that jQuery is defined as $j, if you alredy have another jquery version under that name just modify the plugin js file.
+This plugin restricts any APEX Datepicker by using beforeShowDay function.
 
 The javascript file is not needed you can add the plugin into APEX and create a Dynamic Action.
 
