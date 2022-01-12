@@ -1,11 +1,11 @@
 {
-    "name": "APEX Autocomplete on Character",
+    "name": "APEX Restrict Datepicker",
     "version": "1.0",
-    "description": "This plugin uses jQuery Autocomplete plugin to create a list of values when pressing @ for Text Field or Textarea. The plugin uses jQuery 3.6.0 with noConflict. Please note that jQuery is defined as $j, if you alredy have another jquery version under that name just modify the plugin js file.",
-    "keywords": ["oracle", "apex", "plugin", "dynamic action", "autocomplete"],
-    "homepage": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character",
+    "description": "This plugin restricts any APEX Datepicker by using beforeShowDay function.",
+    "keywords": ["oracle", "apex", "plugin", "dynamic action", "restrict", "datepicker"],
+    "homepage": "https://github.com/AlexandruBasarab/APEX-Restrict-Datepicker",
     "bugs": {
-        "url": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character/issues",
+        "url": "https://github.com/AlexandruBasarab/APEX-Restrict-Datepicker/issues",
         "email": "alexandru.c.basarab@gmail.com"
     },
     "license": "MIT",
@@ -13,21 +13,21 @@
     "author": {
         "name": "Alexandru Basarab",
         "email": "alexandru.c.basarab@gmail.com",
-        "url": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character",
+        "url": "https://github.com/AlexandruBasarab/APEX-Restrict-Datepicker",
         "donationUrl": "https://www.paypal.me/AlexandruBasarab"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character.git"
+        "url": "https://github.com/AlexandruBasarab/APEX-Restrict-Datepicker.git"
     },
     "oracle": {
         "versions": ["12.1.0.1", "12.2.0.1", "18.4.0.0", "19.0.0.0.0"],
         "apex": {
             "versions": ["5.1.3", "18.1.0.00.45", "18.2.0.00.12", "19.1.0.00.15", "19.2.0.00.18", "20.1.0.00.13"],
             "plugin": {
-                "internalName": "OAHAHA.APEX.AUTOCOMPLETE.ON.CHARACTER",
+                "internalName": "OAHAHA.APEX.RESTRICT.DATEPICKER",
                 "type": "dynamic action",
-                "demo": "https://apex.oracle.com/pls/apex/alexandru_basarab/r/oahaha-plug-ins/autocomplete-on-character?session=128161246014268",
+                "demo": "https://apex.oracle.com/pls/apex/alexandru_basarab/r/oahaha-plug-ins/restrict-date-picker",
                 "previewImage": "https://user-images.githubusercontent.com/5824892/142200802-00a7e0fb-88b4-4d22-8eab-e1873e135a93.png"
             }
         }
