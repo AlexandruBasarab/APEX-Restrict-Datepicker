@@ -1,0 +1,35 @@
+{
+    "name": "APEX Autocomplete on Character",
+    "version": "1.0",
+    "description": "This plugin uses jQuery Autocomplete plugin to create a list of values when pressing @ for Text Field or Textarea. The plugin uses jQuery 3.6.0 with noConflict. Please note that jQuery is defined as $j, if you alredy have another jquery version under that name just modify the plugin js file.",
+    "keywords": ["oracle", "apex", "plugin", "dynamic action", "autocomplete"],
+    "homepage": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character",
+    "bugs": {
+        "url": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character/issues",
+        "email": "alexandru.c.basarab@gmail.com"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "author": {
+        "name": "Alexandru Basarab",
+        "email": "alexandru.c.basarab@gmail.com",
+        "url": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character",
+        "donationUrl": "https://www.paypal.me/AlexandruBasarab"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlexandruBasarab/APEX-Autocomplete-on-Character.git"
+    },
+    "oracle": {
+        "versions": ["12.1.0.1", "12.2.0.1", "18.4.0.0", "19.0.0.0.0"],
+        "apex": {
+            "versions": ["5.1.3", "18.1.0.00.45", "18.2.0.00.12", "19.1.0.00.15", "19.2.0.00.18", "20.1.0.00.13"],
+            "plugin": {
+                "internalName": "OAHAHA.APEX.AUTOCOMPLETE.ON.CHARACTER",
+                "type": "dynamic action",
+                "demo": "https://apex.oracle.com/pls/apex/alexandru_basarab/r/oahaha-plug-ins/autocomplete-on-character?session=128161246014268",
+                "previewImage": "https://user-images.githubusercontent.com/5824892/142200802-00a7e0fb-88b4-4d22-8eab-e1873e135a93.png"
+            }
+        }
+    }
+}
